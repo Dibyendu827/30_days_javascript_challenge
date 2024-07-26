@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+    <style>
+        .imgBox{
+            height: 300px;
+            width: 534px;
+            border: 2px solid #000;
+        }
+        .image{
+            height: 300px;
+        }
+        .hide{
+            visibility: hidden;
+        }
+        .bgcChanger{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="changeText">Hello world</p>
+        <button class="changeTextBtn">Change text</button>
+        <div class="imgBox">
+            <img src="../img/Bencly.png" alt="" class="image">
+        </div>
+        <div class="bgcChanger"></div>
+        <p class="textChanger"></p>
+        <input type="text" class="inputField" placeholder="write here">
+        <form action="" class="myForm">
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName">
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName">
+            <button type="submit" class="submitBtn">submit</button>
+        </form>
+        <select value="" class="selection">
+            <option name="" id="">Item 1</option>
+            <option name="" id="">Item 2</option>
+            <option name="" id="">Item 3</option>
+            <option name="" id="">Item 4</option>
+        </select>
+        <p class="selectedValue">The selectd option is: </p>
+        <ul class="myList">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+        </ul>
+        <button class="addListItem">Add item</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
